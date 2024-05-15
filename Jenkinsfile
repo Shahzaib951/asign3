@@ -13,6 +13,6 @@ pipeline {
                 bat 'dir' // List files in the workspace directory for debugging
                 bat 'python app.py'
             }
-
-    }
+        }
+    }
 }
