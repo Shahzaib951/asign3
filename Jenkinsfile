@@ -9,9 +9,9 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'echo Building the application'
-                bat 'dir' // List files in the workspace directory for debugging
-                bat 'python app.py'
+                sh 'echo Building the application'
+                sh 'dir' // List files in the workspace directory for debugging
+                sh 'python app.py'
             }
         }
     }
